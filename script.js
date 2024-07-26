@@ -16,24 +16,24 @@ window.onscroll = () => {
   }
 
   if (scroll > 700) {
-    bullet.style.transform = `translateX(-${ (scroll - 700) }px)`;
+    bullet.style.transform = `translateX(-${ (scroll - 700) * 1.1 }px)`;
   } else {
     bullet.style.transform = `translateX(0px)`;
   }
 
-  if (scroll > 700 && scroll < 800) {
-    slide.style.transform = `translateX(${ (scroll - 700) / 2 }px) rotate(-0.66deg) translateY(1px)`;
-  } else if (scroll >= 800 && scroll < 900) {
-    slide.style.transform = `translateX(${ 50 + (800 - scroll) / 2 }px) rotate(-0.66deg) translateY(1px)`;
+  if (scroll > 700 && scroll < 750) {
+    slide.style.transform = `translateX(${ (scroll - 700) }px) rotate(-0.66deg) translateY(1px)`;
+  } else if (scroll >= 750 && scroll < 800) {
+    slide.style.transform = `translateX(${ 50 + (750 - scroll) }px) rotate(-0.66deg) translateY(1px)`;
   } else {
     slide.style.transform = `translateX(0px) rotate(-0.66deg) translateY(1px)`;
   }
 
   if (scroll > 900 && scroll < 1175) {
     pistol.style.transform = `translateY(-400px) rotate(${(900 - scroll) / 3 }deg)`;
-  } else if (scroll >= 1175 && scroll < 1500) {
+  } else if (scroll >= 1175 && scroll < 1575) {
     pistol.style.transform = `translateY(-${ 400 - (scroll - 1175) }px) rotate(-90deg)`;
-  } else if (scroll >= 1500) {
+  } else if (scroll >= 1575) {
     pistol.style.transform = `translateY(0px) rotate(-90deg)`;
   }
 
