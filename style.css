@@ -11,8 +11,71 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: monospace, sans-serif;
   height: 300vh;
+  background: var(--background);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background);
+  z-index: 100;
+  padding: 0 2rem;
+}
+
+#nav-name {
+  position: relative;
+  padding-left: 0.6rem;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: -1rem;
+  /* border: 1px solid deeppink; */
+}
+
+#nav-name::before {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  /* transform: translateX(-50%); */
+  width: 0.25rem;
+  height: 100%;
+  background: #000;
+}
+
+#nav-name::after {
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  left: -0.85rem;
+  /* transform: translateX(-50%); */
+  width: 2rem;
+  height: 0.25rem;
+  background: #000;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 6rem 0;
+}
+
+.content {
+  height: 80vw;
+  width: 80vw;
+  margin: 2rem;
+  border: 1px solid #000;
 }
 
 #pistola {
@@ -23,6 +86,7 @@ body {
   transform: translateX(-50%);
   width: 15rem;
   height: 15rem;
+  pointer-events: none;
 }
 
 .pistol {

@@ -7,10 +7,12 @@ const bullet = document.getElementById('bullet');
 window.onscroll = () => {
   let scroll = document.documentElement.scrollTop;
 
-  if (scroll < 400) {
-    pistol.style.transform = `translateY(-${ scroll }px) rotate(-90deg)`;
-  } else if (scroll < 675) {
-    pistol.style.transform = `translateY(-400px) rotate(${ -90 + ((scroll - 400) / 3) }deg)`;
+  console.log(scroll);
+
+  if (scroll < 333) {
+    pistol.style.transform = `translateY(-${ scroll * 1.2 }px) rotate(-90deg)`;
+  } else if (scroll < 600) {
+    pistol.style.transform = `translateY(-400px) rotate(${ -90 + ((scroll - 333) / 3) }deg)`;
   } else {
     pistol.style.transform = `translateY(-400px)`;
   }
@@ -37,6 +39,6 @@ window.onscroll = () => {
     pistol.style.transform = `translateY(0px) rotate(-90deg)`;
   }
 
-  console.log(slide.style.transform);
+  // console.log(slide.style.transform);
   // holster.style.transform = `translateY(${ scroll / 2 }px)`;
 }
