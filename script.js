@@ -7,7 +7,7 @@ const bullet = document.getElementById('bullet');
 window.onscroll = () => {
   let scroll = document.documentElement.scrollTop;
 
-  console.log(scroll);
+  // console.log(scroll);
 
   if (scroll < 333) {
     pistol.style.transform = `translateY(-${ scroll * 1.2 }px) rotate(-90deg)`;
