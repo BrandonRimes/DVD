@@ -4,10 +4,22 @@ const slide = document.getElementById('slide');
 const frame = document.getElementById('frame');
 const bullet = document.getElementById('bullet');
 
+const navName = document.getElementById('nav-name');
+
 window.onscroll = () => {
   let scroll = document.documentElement.scrollTop;
 
   // console.log(scroll);
+
+  if (scroll < 500) {
+    navName.style.fontSize = 1 - (scroll / 1000) + 'rem';
+    navName.style.letterSpacing = 1 - (scroll / 1000) + 'rem';
+    navName.style.marginTop = 3 - (scroll / 333) + 'rem';
+  } else {
+    navName.style.fontSize = '0.5rem';
+    navName.style.letterSpacing = '0.5rem';
+    navName.style.marginTop = '1.5rem';
+  }
 
   if (scroll < 333) {
     pistol.style.transform = `translateY(-${ scroll * 1.2 }px) rotate(-90deg)`;
