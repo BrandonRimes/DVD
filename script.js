@@ -61,30 +61,26 @@ function toggleActiveContent(btn) {
   // activeBtn = btn;
   content.innerHTML = contents[btn];
 
+  content1btn.classList.remove('active-btn');
+  content2btn.classList.remove('active-btn');
+  content3btn.classList.remove('active-btn');
+  content4btn.classList.remove('active-btn');
+
+  navName.style.fontSize = '0.5rem';
+  navName.style.letterSpacing = '0.5rem';
+  navName.style.marginTop = '1.5rem';
+
   if (btn === 'Home') {
-    content1btn.classList.remove('active-btn');
-    content2btn.classList.remove('active-btn');
-    content3btn.classList.remove('active-btn');
-    content4btn.classList.remove('active-btn');
+    navName.style.fontSize = '1rem';
+    navName.style.letterSpacing = '1rem';
+    navName.style.marginTop = '3rem';
   } else if (btn === 'Firearms Instruction') {
     content1btn.classList.add('active-btn');
-    content2btn.classList.remove('active-btn');
-    content3btn.classList.remove('active-btn');
-    content4btn.classList.remove('active-btn');
   } else if (btn === 'Run Drills') {
-    content1btn.classList.remove('active-btn');
     content2btn.classList.add('active-btn');
-    content3btn.classList.remove('active-btn');
-    content4btn.classList.remove('active-btn');
   } else if (btn === 'Custom Gear') {
-    content1btn.classList.remove('active-btn');
-    content2btn.classList.remove('active-btn');
     content3btn.classList.add('active-btn');
-    content4btn.classList.remove('active-btn');
   } else if (btn === 'Contact') {
-    content1btn.classList.remove('active-btn');
-    content2btn.classList.remove('active-btn');
-    content3btn.classList.remove('active-btn');
     content4btn.classList.add('active-btn');
   }
 }
