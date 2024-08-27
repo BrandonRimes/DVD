@@ -15,23 +15,27 @@ const content4btn = document.getElementById('content-4-btn');
 const content1 = `
 <div id="content-1" class="content">
   <p>
-    Learn the skills
-    <br>
-    Gain the confidence
-    <br>
-    Acquire the experience
+    Craft beer kale chips solarpunk farm-to-table unicorn consectetur in hell of lo-fi dolore cupping brunch four loko dreamcatcher. Nisi tofu next level ugh grailed, neutra DSA. Sint cardigan shoreditch bruh vaporware trust fund. Flexitarian sus chillwave man braid mlkshk, enim voluptate laborum et. Schlitz aliqua culpa ad everyday carry.
   </p>
-  <p>Here are some intermediate instructions</p>
+  <p>
+    Marxism glossier seitan, offal excepteur aute laborum. Chicharrones sunt narwhal adaptogen yes plz af etsy in ut. Keytar irure try-hard wayfarers hashtag enim esse velit lyft jianbing. Palo santo quis truffaut, ut jawn succulents organic lorem sustainable affogato try-hard. Consectetur venmo try-hard dolore eiusmod. Photo booth magna narwhal blog, succulents eu jean shorts fixie qui.
+  </p>
 </div>
 `;
 const content2 = `
 <div id="content-2" class="content">
+  <p>
+    Put a bird on it mixtape poutine iPhone. Aliquip direct trade ullamco farm-to-table, cornhole DSA elit hashtag. Sriracha artisan proident seitan, commodo chillwave typewriter. Mixtape truffaut trust fund, adaptogen vibecession farm-to-table gatekeep affogato dolore. Ascot ea paleo locavore disrupt sus master cleanse Brooklyn bruh PBR&B keffiyeh fashion axe. Copper mug hoodie same subway tile mukbang roof party everyday carry irony. Sint anim narwhal umami cillum green juice.
+  </p>
 </div>
 `;
 const content3 = `
 <div id="content-3" class="content">
   <p>
     Magazine pouches
+  </p>
+  <p>
+    Enamel pin incididunt succulents, banh mi wolf art party bicycle rights. Hammock small batch vexillologist, bitters mukbang distillery enim lomo ugh palo santo before they sold out pop-up shabby chic bodega boys. Thundercats umami shabby chic, YOLO live-edge echo park bushwick pour-over portland. Vinyl before they sold out pickled, tumblr blue bottle mlkshk fashion axe tempor.
   </p>
 </div>
 `;

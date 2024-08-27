@@ -72,7 +72,7 @@ nav {
   justify-content: start;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 76vh;
   overflow: hidden;
   /* background: var(--half-background); */
   /* padding: 12rem 0; */
@@ -105,10 +105,8 @@ nav {
 
 .content-btn {
   display: flex;
-  flex-direction: column;
-  /* justify-content: top; */
   align-items: center;
-  height: 5vh;
+  height: 6vh;
   width: 100vw;
   overflow: hidden;
   background: var(--half-background);
