@@ -6,6 +6,124 @@ const bullet = document.getElementById('bullet');
 
 const navName = document.getElementById('nav-name');
 
+const content = document.getElementById('content');
+const content1btn = document.getElementById('content-1-btn');
+const content2btn = document.getElementById('content-2-btn');
+const content3btn = document.getElementById('content-3-btn');
+const content4btn = document.getElementById('content-4-btn');
+
+const content1 = `
+<div id="content-1" class="content">
+  <p>
+    Learn the skills
+    <br>
+    Gain the confidence
+    <br>
+    Acquire the experience
+  </p>
+  <p>Here are some intermediate instructions</p>
+</div>
+`;
+const content2 = `
+<div id="content-2" class="content">
+</div>
+`;
+const content3 = `
+<div id="content-3" class="content">
+  <p>
+    Magazine pouches
+  </p>
+</div>
+`;
+const content4 = `
+<div id="content-4" class="content">
+  <p>
+    Contact me
+  </p>
+</div>
+`;
+
+const contents = {
+  'Home': '',
+  'Firearms Instruction': content1,
+  'Run Drills': content2,
+  'Custom Gear': content3,
+  'Contact': content4
+}
+
+// const activeBtn = 'Home';
+
+function toggleActiveContent(btn) {
+  // activeBtn = btn;
+  content.innerHTML = contents[btn];
+
+  if (btn === 'Home') {
+    content1btn.classList.remove('active-btn');
+    content2btn.classList.remove('active-btn');
+    content3btn.classList.remove('active-btn');
+    content4btn.classList.remove('active-btn');
+  } else if (btn === 'Firearms Instruction') {
+    content1btn.classList.add('active-btn');
+    content2btn.classList.remove('active-btn');
+    content3btn.classList.remove('active-btn');
+    content4btn.classList.remove('active-btn');
+  } else if (btn === 'Run Drills') {
+    content1btn.classList.remove('active-btn');
+    content2btn.classList.add('active-btn');
+    content3btn.classList.remove('active-btn');
+    content4btn.classList.remove('active-btn');
+  } else if (btn === 'Custom Gear') {
+    content1btn.classList.remove('active-btn');
+    content2btn.classList.remove('active-btn');
+    content3btn.classList.add('active-btn');
+    content4btn.classList.remove('active-btn');
+  } else if (btn === 'Contact') {
+    content1btn.classList.remove('active-btn');
+    content2btn.classList.remove('active-btn');
+    content3btn.classList.remove('active-btn');
+    content4btn.classList.add('active-btn');
+  }
+}
+
+navName.addEventListener('click', () => {
+  toggleActiveContent('Home');
+});
+
+content1btn.addEventListener('click', () => {
+  toggleActiveContent('Firearms Instruction');
+});
+
+content2btn.addEventListener('click', () => {
+  toggleActiveContent('Run Drills');
+});
+
+content3btn.addEventListener('click', () => {
+  toggleActiveContent('Custom Gear');
+});
+
+content4btn.addEventListener('click', () => {
+  toggleActiveContent('Contact');
+});
+
+
+// function navigateTo(path) {
+//   // Add a new entry to the history and update the URL
+//   history.pushState(null, null, path);
+//   // Update the content dynamically based on the selected path
+//   updateContent(path);
+// }
+// function updateContent(path) {
+//   // Fetch content from the server or perform other actions based on the path
+//   // For simplicity, let's just update the content in the example
+//   document.getElementById('content').innerHTML = `Content for ${path}`;
+// }
+// // Handle the popstate event to detect changes in the browsing history
+// window.addEventListener("popstate", function(event) {
+//   // Update the content based on the state object
+//   const path = window.location.pathname;
+//   updateContent(path);
+// });
+
 window.onscroll = () => {
   let scroll = document.documentElement.scrollTop;
 
