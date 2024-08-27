@@ -6,6 +6,7 @@ const bullet = document.getElementById('bullet');
 
 const navName = document.getElementById('nav-name');
 
+const contentContainer = document.getElementById('content-container');
 const content = document.getElementById('content');
 const content1btn = document.getElementById('content-1-btn');
 const content2btn = document.getElementById('content-2-btn');
@@ -19,6 +20,9 @@ const content1 = `
   </p>
   <p>
     Marxism glossier seitan, offal excepteur aute laborum. Chicharrones sunt narwhal adaptogen yes plz af etsy in ut. Keytar irure try-hard wayfarers hashtag enim esse velit lyft jianbing. Palo santo quis truffaut, ut jawn succulents organic lorem sustainable affogato try-hard. Consectetur venmo try-hard dolore eiusmod. Photo booth magna narwhal blog, succulents eu jean shorts fixie qui.
+  </p>
+  <p>
+    Literally proident dolor meditation. Vibecession sed ut grailed ramps wolf migas squid ad nisi before they sold out lorem. Narwhal banjo direct trade vape church-key edison bulb hexagon ugh, cliche biodiesel. Distillery pop-up marxism, fit waistcoat fanny pack squid in wayfarers irony eiusmod mustache. Tumeric 8-bit 3 wolf moon, poutine shoreditch 90's. Tofu 8-bit ut, 3 wolf moon shoreditch.
   </p>
 </div>
 `;
@@ -59,6 +63,7 @@ const contents = {
 
 function toggleActiveContent(btn) {
   // activeBtn = btn;
+  contentContainer.style.background = 'var(--half-background)';
   content.innerHTML = contents[btn];
 
   content1btn.classList.remove('active-btn');
