@@ -15,31 +15,113 @@ const content4btn = document.getElementById('content-4-btn');
 
 const content1 = `
 <div id="content-1" class="content">
-  <p>
-    Craft beer kale chips solarpunk farm-to-table unicorn consectetur in hell of lo-fi dolore cupping brunch four loko dreamcatcher. Nisi tofu next level ugh grailed, neutra DSA. Sint cardigan shoreditch bruh vaporware trust fund. Flexitarian sus chillwave man braid mlkshk, enim voluptate laborum et. Schlitz aliqua culpa ad everyday carry.
-  </p>
-  <p>
-    Marxism glossier seitan, offal excepteur aute laborum. Chicharrones sunt narwhal adaptogen yes plz af etsy in ut. Keytar irure try-hard wayfarers hashtag enim esse velit lyft jianbing. Palo santo quis truffaut, ut jawn succulents organic lorem sustainable affogato try-hard. Consectetur venmo try-hard dolore eiusmod. Photo booth magna narwhal blog, succulents eu jean shorts fixie qui.
-  </p>
-  <p>
-    Literally proident dolor meditation. Vibecession sed ut grailed ramps wolf migas squid ad nisi before they sold out lorem. Narwhal banjo direct trade vape church-key edison bulb hexagon ugh, cliche biodiesel. Distillery pop-up marxism, fit waistcoat fanny pack squid in wayfarers irony eiusmod mustache. Tumeric 8-bit 3 wolf moon, poutine shoreditch 90's. Tofu 8-bit ut, 3 wolf moon shoreditch.
-  </p>
+  <section>
+    <h3>Start Somewhere</h3>
+    <p>
+      Come as you are.<br>
+      Equipment can be provided.<br>
+      9mm ammunition will be available for sale.<br>
+      Expect to shoot ~150 rounds.
+    </p>
+  </section>
+  <section>
+    <h3>Principles Covered</h3>
+    <p>
+      Safety<br>
+      Equipment Operation<br>
+      Shooting Fundamentals<br>
+      Concealed Carrying<br>
+      Firearm Selection<br>
+      Legalities<br>
+    </p>
+  </section>
+  <section>
+    <h3>Sequence of Events</h3>
+    <p>
+      Safety Briefing<br>
+      Equipment Operations Overview<br>
+      Shooting Fundamentals Overview<br>
+      Move to Shooting Positions<br>
+      Range Hot / Make Ready<br>
+      Shooting / Instruction<br>
+      Range Cold / Reset<br>
+      Repeat Hot / Cold<br>
+      Debrief<br>
+    </p>
+  </section>
+  <section>
+    <h3>Schedule & Payment</h3>
+    <p>
+      Saturdays<br>
+      0900 to 1300<br>
+      At Okeechobee Shooting Sports<br>
+      <br>
+      Accomodations of different days and times can be made for private sessions and complete groups of 4+<br>
+      <br>
+      Public Sessions: $100/shooter<br>
+      Private Sessions: starting at $400<br>
+      <br>
+      Cash / Zelle / Venmo / Barter<br>
+    </p>
+  </section>
 </div>
 `;
 const content2 = `
 <div id="content-2" class="content">
-  <p>
-    Put a bird on it mixtape poutine iPhone. Aliquip direct trade ullamco farm-to-table, cornhole DSA elit hashtag. Sriracha artisan proident seitan, commodo chillwave typewriter. Mixtape truffaut trust fund, adaptogen vibecession farm-to-table gatekeep affogato dolore. Ascot ea paleo locavore disrupt sus master cleanse Brooklyn bruh PBR&B keffiyeh fashion axe. Copper mug hoodie same subway tile mukbang roof party everyday carry irony. Sint anim narwhal umami cillum green juice.
-  </p>
+  <section>
+    <h3>Train</h3>
+    <p>
+      Bring your EDC pistol, home defense weapon, and SHTF loadout.<br>
+      9mm ammunition will be available for sale.<br>
+      Expect to shoot 250+ rounds.<br>
+    </p>
+  </section>
+  <section>
+    <h3>Principles Covered</h3>
+    <p>
+      Safety<br>
+      Shooting From Concealment<br>
+      Target Transitions<br>
+      Utilizing Cover / Concealment<br>
+      Shooting on the Move<br>
+      Weapon Transitions<br>
+    </p>
+  </section>
+  <section>
+    <h3>Sequence of Events</h3>
+    <p>
+      Safety Briefing<br>
+      Drills<br>
+      Debrief<br>
+    </p>
+  </section>
+  <section>
+    <h3>Running Drills</h3>
+    <p>
+      
+    </p>
+  </section>
+  <section>
+    <h3>Schedule & Payment</h3>
+    <p>
+      Saturdays<br>
+      0900 to 1300<br>
+      At Okeechobee Shooting Sports<br>
+      <br>
+      Accomodations of different days and times can be made for private sessions and complete groups of 4+<br>
+      <br>
+      Public Sessions: $100/shooter<br>
+      Private Sessions: starting at $400<br>
+      <br>
+      Cash / Zelle / Venmo / Barter<br>
+    </p>
+  </section>
 </div>
 `;
 const content3 = `
 <div id="content-3" class="content">
   <p>
     Magazine pouches
-  </p>
-  <p>
-    Enamel pin incididunt succulents, banh mi wolf art party bicycle rights. Hammock small batch vexillologist, bitters mukbang distillery enim lomo ugh palo santo before they sold out pop-up shabby chic bodega boys. Thundercats umami shabby chic, YOLO live-edge echo park bushwick pour-over portland. Vinyl before they sold out pickled, tumblr blue bottle mlkshk fashion axe tempor.
   </p>
 </div>
 `;

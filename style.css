@@ -85,7 +85,7 @@ nav {
   height: 65vh;
   overflow: hidden;
   /* background: var(--half-background); */
-  /* padding: 12rem 0; */
+  /* padding: 2rem 0; */
 }
 
 .content {
@@ -97,20 +97,43 @@ nav {
   height: 100%;
   overflow: scroll;
   /* background: var(--half-background); */
-  padding: 2rem 0;
+  padding: 2rem 1rem;
 }
 
-.content h2 {
+.content section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start;
+  align-items: center; */
+  width: 100%;
+  /* height: 100%; */
+  padding: 1rem;
+  padding-top: 1.5rem;
+  border: 2px solid var(--background);
+  margin-bottom: 2rem;
+}
+
+.content h3 {
+  position: absolute;
+  top: -1rem;
   font-size: 1.5rem;
-  letter-spacing: 0.25rem;
-  padding: 0.5rem;
-  text-align: center;
-  border-bottom: 1px solid var(--half-background);
+  letter-spacing: 0.1rem;
+  text-shadow: 3px 3px 0px var(--background);
+  /* padding: 0.5rem 0; */
+  /* text-align: center; */
 }
 
 .content p {
-  padding: 1rem;
+  line-height: 1.3;
+  /* padding: 1rem; */
   /* text-align: center; */
+}
+
+#nav-btns {
+  position: fixed;
+  bottom: 0;
+  /* box-shadow: 0 -1rem 2rem var(--background); */
 }
 
 .content-btn {
