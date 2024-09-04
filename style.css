@@ -133,6 +133,7 @@ nav {
 #nav-btns {
   position: fixed;
   bottom: 0;
+  height: 24vh;
   /* box-shadow: 0 -1rem 2rem var(--background); */
 }
 
