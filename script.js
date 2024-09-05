@@ -20,7 +20,7 @@ const content1 = `
     <p>
       Come as you are.<br>
       Equipment can be provided.<br>
-      9mm ammunition will be available for sale.<br>
+      Ammunition will be available for sale.<br>
       Expect to shoot ~150 rounds.
     </p>
   </section>
@@ -28,24 +28,24 @@ const content1 = `
     <h3>Principles Covered</h3>
     <p>
       Safety<br>
-      Equipment Operation<br>
-      Shooting Fundamentals<br>
-      Concealed Carrying<br>
-      Firearm Selection<br>
+      Equipment operation<br>
+      Shooting fundamentals<br>
+      Concealed carrying<br>
+      Firearm selection<br>
       Legalities<br>
     </p>
   </section>
   <section>
     <h3>Sequence of Events</h3>
     <p>
-      Safety Briefing<br>
-      Equipment Operations Overview<br>
-      Shooting Fundamentals Overview<br>
-      Move to Shooting Positions<br>
-      Range Hot / Make Ready<br>
-      Shooting / Instruction<br>
-      Range Cold / Reset<br>
-      Repeat Hot / Cold<br>
+      Safety briefing<br>
+      Equipment operations overview<br>
+      Shooting fundamentals overview<br>
+      Move to shooting positions<br>
+      Range hot / make ready<br>
+      Shooting / instruction<br>
+      Range cold / reset<br>
+      Repeat hot / cold<br>
       Debrief<br>
     </p>
   </section>
@@ -62,6 +62,33 @@ const content1 = `
       Private Sessions: starting at $400<br>
       <br>
       Cash / Zelle / Venmo / Barter<br>
+    </p>
+  </section>
+  <section>
+    <h3>Provisions</h3>
+    <p>
+      Active ear / eye protection and a variety of pistols / rifles / shotguns are available for use.<br>
+      <br>
+      You should bring and train with your equipment, if you have it.<br>
+      <br>
+      Ammunition is available for sale.<br>
+      Food and drinks are available for purchase from Okeechobee Shooting Sports.<br>
+      <br>
+      Targets are provided.<br>
+    </p>
+  </section>
+  <section>
+    <h3>Preparations</h3>
+    <p>
+      Bring water.<br>
+      <br>
+      Bring your firearms unloaded, unless holstered on your person.<br>
+      <br>
+      Load magazines beforehand, if able.<br>
+      <br>
+      Prepare to be in the sun / rain for the entirety, and there is a covered area when needed.<br>
+      <br>
+      Wear closed-toed shoes / boots.<br>
     </p>
   </section>
 </div>
@@ -72,7 +99,7 @@ const content2 = `
     <h3>Train</h3>
     <p>
       Bring your EDC pistol, home defense weapon, and SHTF loadout.<br>
-      9mm ammunition will be available for sale.<br>
+      Ammunition will be available for sale.<br>
       Expect to shoot 250+ rounds.<br>
     </p>
   </section>
@@ -80,17 +107,17 @@ const content2 = `
     <h3>Principles Covered</h3>
     <p>
       Safety<br>
-      Shooting From Concealment<br>
-      Target Transitions<br>
-      Utilizing Cover / Concealment<br>
-      Shooting on the Move<br>
-      Weapon Transitions<br>
+      Shooting from concealment<br>
+      Target transitions<br>
+      Utilizing cover / concealment<br>
+      Shooting while moving<br>
+      Weapon transitions<br>
     </p>
   </section>
   <section>
     <h3>Sequence of Events</h3>
     <p>
-      Safety Briefing<br>
+      Safety briefing<br>
       Drills<br>
       Debrief<br>
     </p>
@@ -98,7 +125,14 @@ const content2 = `
   <section>
     <h3>Running Drills</h3>
     <p>
-      
+      Talkthrough<br>
+      Walkthrough<br>
+      Hot demo<br>
+      Shooters take turns<br>
+      Reset, reload, repeat<br>
+      <br>
+      There will be multiple drills with a variety of distances, movements, times, and targets.<br>
+      They range from probable scenarios to arduous amalgamations of principles.<br>
     </p>
   </section>
   <section>
@@ -114,6 +148,31 @@ const content2 = `
       Private Sessions: starting at $400<br>
       <br>
       Cash / Zelle / Venmo / Barter<br>
+    </p>
+  </section>
+  <section>
+    <h3>Provisions</h3>
+    <p>
+      Active ear / eye protection are available for use.<br>
+      <br>
+      Ammunition is available for sale.<br>
+      Food and drinks are available for purchase from Okeechobee Shooting Sports.<br>
+      <br>
+      Targets are provided.<br>
+    </p>
+  </section>
+  <section>
+    <h3>Preparations</h3>
+    <p>
+      Bring water.<br>
+      <br>
+      Bring your firearms unloaded, unless holstered on your person, and otherwise ready to run drills with.<br>
+      <br>
+      Load your magazines beforehand, if able.<br>
+      <br>
+      Prepare to be in the sun / rain for the entirety, and there is a covered area when needed.<br>
+      <br>
+      Wear closed-toed shoes / boots.<br>
     </p>
   </section>
 </div>
