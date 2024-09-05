@@ -46,7 +46,7 @@ const content1 = `
       Shooting / instruction<br>
       Range cold / reset<br>
       Repeat hot / cold<br>
-      Debrief<br>
+      Debriefing<br>
     </p>
   </section>
   <section>
@@ -119,7 +119,7 @@ const content2 = `
     <p>
       Safety briefing<br>
       Drills<br>
-      Debrief<br>
+      Debriefing<br>
     </p>
   </section>
   <section>
