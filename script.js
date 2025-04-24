@@ -118,6 +118,7 @@ const content2 = `
     <h3>Sequence of Events</h3>
     <p>
       Safety briefing<br>
+      Skills<br>
       Drills<br>
       Debriefing<br>
     </p>
@@ -180,15 +181,20 @@ const content2 = `
 const content3 = `
 <div id="content-3" class="content">
   <p>
-    Magazine pouches
+    Coming eventually...
   </p>
 </div>
 `;
 const content4 = `
 <div id="content-4" class="content">
-  <p>
-    Contact me
-  </p>
+  <section>
+    <h3>Text</h3>
+    <p>
+      Preferred.<br>
+      Text me for scheduling and questions.<br>
+      <a class="links" href="sms:+15615435906">561-543-5906</a>
+    </p>
+  </section>
 </div>
 `;
 
